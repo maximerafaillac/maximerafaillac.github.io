@@ -1,22 +1,25 @@
 {
   "name": "MaximeRafaillac",
   "title": "Maxime Rafaillac",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "maximerafaillac.github.io",
   "author": "Maxime Rafaillac",
   "devDependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "browser-sync": "^2.13.0",
+    "font-awesome": "^4.6.3",
     "gulp": "latest",
-    "gulp-load-plugins": "latest",
-    "gulp-rename": "latest",
-    "gulp-csso": "latest", 
-    "gulp-less": "latest", 
-    "gulp-csscomb": "latest",
-    "gulp-cssbeautify": "latest",
-    "gulp-autoprefixer": "latest",
-    "gulp-uglify" : "latest",
-    "gulp-concat" : "latest",
+    "gulp-clean-css": "latest",
+    "gulp-header": "^1.8.7",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.4",
     "gulp-imagemin": "latest",
-    "gulp-uncss": "latest",
-    "gulp-header": "latest"
+    "gulp-purifycss": "latest",
+    "jquery": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maximerafaillac/maximerafaillac.github.io"
   }
 }
