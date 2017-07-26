@@ -1,0 +1,616 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData bootstrap
+20 silly mapToRegistry name bootstrap
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'bootstrap',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'bootstrap',
+23 silly mapToRegistry   name: 'bootstrap',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+25 silly fetchNamedPackageData browser-sync
+26 silly mapToRegistry name browser-sync
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'browser-sync',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'browser-sync',
+29 silly mapToRegistry   name: 'browser-sync',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/browser-sync
+31 silly fetchNamedPackageData font-awesome
+32 silly mapToRegistry name font-awesome
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'font-awesome',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'font-awesome',
+35 silly mapToRegistry   name: 'font-awesome',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/font-awesome
+37 silly fetchNamedPackageData gulp
+38 silly mapToRegistry name gulp
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'gulp',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'gulp',
+41 silly mapToRegistry   name: 'gulp',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/gulp
+43 silly fetchNamedPackageData gulp-clean-css
+44 silly mapToRegistry name gulp-clean-css
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'gulp-clean-css',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'gulp-clean-css',
+47 silly mapToRegistry   name: 'gulp-clean-css',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/gulp-clean-css
+49 silly fetchNamedPackageData gulp-header
+50 silly mapToRegistry name gulp-header
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'gulp-header',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'gulp-header',
+53 silly mapToRegistry   name: 'gulp-header',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/gulp-header
+55 silly fetchNamedPackageData gulp-less
+56 silly mapToRegistry name gulp-less
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'gulp-less',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'gulp-less',
+59 silly mapToRegistry   name: 'gulp-less',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/gulp-less
+61 silly fetchNamedPackageData gulp-rename
+62 silly mapToRegistry name gulp-rename
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'gulp-rename',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'gulp-rename',
+65 silly mapToRegistry   name: 'gulp-rename',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/gulp-rename
+67 silly fetchNamedPackageData gulp-uglify
+68 silly mapToRegistry name gulp-uglify
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry data Result {
+71 silly mapToRegistry   raw: 'gulp-uglify',
+71 silly mapToRegistry   scope: null,
+71 silly mapToRegistry   escapedName: 'gulp-uglify',
+71 silly mapToRegistry   name: 'gulp-uglify',
+71 silly mapToRegistry   rawSpec: '',
+71 silly mapToRegistry   spec: 'latest',
+71 silly mapToRegistry   type: 'tag' }
+72 silly mapToRegistry uri https://registry.npmjs.org/gulp-uglify
+73 silly fetchNamedPackageData gulp-imagemin
+74 silly mapToRegistry name gulp-imagemin
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry data Result {
+77 silly mapToRegistry   raw: 'gulp-imagemin',
+77 silly mapToRegistry   scope: null,
+77 silly mapToRegistry   escapedName: 'gulp-imagemin',
+77 silly mapToRegistry   name: 'gulp-imagemin',
+77 silly mapToRegistry   rawSpec: '',
+77 silly mapToRegistry   spec: 'latest',
+77 silly mapToRegistry   type: 'tag' }
+78 silly mapToRegistry uri https://registry.npmjs.org/gulp-imagemin
+79 silly fetchNamedPackageData gulp-purifycss
+80 silly mapToRegistry name gulp-purifycss
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry data Result {
+83 silly mapToRegistry   raw: 'gulp-purifycss',
+83 silly mapToRegistry   scope: null,
+83 silly mapToRegistry   escapedName: 'gulp-purifycss',
+83 silly mapToRegistry   name: 'gulp-purifycss',
+83 silly mapToRegistry   rawSpec: '',
+83 silly mapToRegistry   spec: 'latest',
+83 silly mapToRegistry   type: 'tag' }
+84 silly mapToRegistry uri https://registry.npmjs.org/gulp-purifycss
+85 silly fetchNamedPackageData jquery
+86 silly mapToRegistry name jquery
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry data Result {
+89 silly mapToRegistry   raw: 'jquery',
+89 silly mapToRegistry   scope: null,
+89 silly mapToRegistry   escapedName: 'jquery',
+89 silly mapToRegistry   name: 'jquery',
+89 silly mapToRegistry   rawSpec: '',
+89 silly mapToRegistry   spec: 'latest',
+89 silly mapToRegistry   type: 'tag' }
+90 silly mapToRegistry uri https://registry.npmjs.org/jquery
+91 verbose request uri https://registry.npmjs.org/bootstrap
+92 verbose request no auth needed
+93 info attempt registry request try #1 at 17:30:23
+94 verbose request id 5f76ac11fec277c3
+95 http request GET https://registry.npmjs.org/bootstrap
+96 verbose request uri https://registry.npmjs.org/browser-sync
+97 verbose request no auth needed
+98 info attempt registry request try #1 at 17:30:23
+99 http request GET https://registry.npmjs.org/browser-sync
+100 verbose request uri https://registry.npmjs.org/font-awesome
+101 verbose request no auth needed
+102 info attempt registry request try #1 at 17:30:23
+103 http request GET https://registry.npmjs.org/font-awesome
+104 verbose request uri https://registry.npmjs.org/gulp
+105 verbose request no auth needed
+106 info attempt registry request try #1 at 17:30:23
+107 http request GET https://registry.npmjs.org/gulp
+108 verbose request uri https://registry.npmjs.org/gulp-clean-css
+109 verbose request no auth needed
+110 info attempt registry request try #1 at 17:30:23
+111 http request GET https://registry.npmjs.org/gulp-clean-css
+112 verbose request uri https://registry.npmjs.org/gulp-header
+113 verbose request no auth needed
+114 info attempt registry request try #1 at 17:30:23
+115 http request GET https://registry.npmjs.org/gulp-header
+116 verbose request uri https://registry.npmjs.org/gulp-less
+117 verbose request no auth needed
+118 info attempt registry request try #1 at 17:30:23
+119 http request GET https://registry.npmjs.org/gulp-less
+120 verbose request uri https://registry.npmjs.org/gulp-rename
+121 verbose request no auth needed
+122 info attempt registry request try #1 at 17:30:23
+123 http request GET https://registry.npmjs.org/gulp-rename
+124 verbose request uri https://registry.npmjs.org/gulp-uglify
+125 verbose request no auth needed
+126 info attempt registry request try #1 at 17:30:23
+127 http request GET https://registry.npmjs.org/gulp-uglify
+128 verbose request uri https://registry.npmjs.org/gulp-imagemin
+129 verbose request no auth needed
+130 info attempt registry request try #1 at 17:30:23
+131 http request GET https://registry.npmjs.org/gulp-imagemin
+132 verbose request uri https://registry.npmjs.org/gulp-purifycss
+133 verbose request no auth needed
+134 info attempt registry request try #1 at 17:30:23
+135 http request GET https://registry.npmjs.org/gulp-purifycss
+136 verbose request uri https://registry.npmjs.org/jquery
+137 verbose request no auth needed
+138 info attempt registry request try #1 at 17:30:23
+139 http request GET https://registry.npmjs.org/jquery
+140 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+141 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+142 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+143 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+144 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+145 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+146 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+147 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+148 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+149 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+150 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+151 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+152 info attempt registry request try #2 at 17:30:33
+153 http request GET https://registry.npmjs.org/browser-sync
+154 info attempt registry request try #2 at 17:30:33
+155 http request GET https://registry.npmjs.org/gulp
+156 info attempt registry request try #2 at 17:30:33
+157 http request GET https://registry.npmjs.org/font-awesome
+158 info attempt registry request try #2 at 17:30:33
+159 http request GET https://registry.npmjs.org/gulp-less
+160 info attempt registry request try #2 at 17:30:33
+161 http request GET https://registry.npmjs.org/bootstrap
+162 info attempt registry request try #2 at 17:30:33
+163 http request GET https://registry.npmjs.org/gulp-rename
+164 info attempt registry request try #2 at 17:30:33
+165 http request GET https://registry.npmjs.org/gulp-clean-css
+166 info attempt registry request try #2 at 17:30:33
+167 http request GET https://registry.npmjs.org/gulp-header
+168 info attempt registry request try #2 at 17:30:33
+169 http request GET https://registry.npmjs.org/gulp-uglify
+170 info attempt registry request try #2 at 17:30:33
+171 http request GET https://registry.npmjs.org/gulp-purifycss
+172 info attempt registry request try #2 at 17:30:33
+173 http request GET https://registry.npmjs.org/gulp-imagemin
+174 info attempt registry request try #2 at 17:30:33
+175 http request GET https://registry.npmjs.org/jquery
+176 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+177 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+178 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+179 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+180 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+181 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+182 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+183 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+184 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+185 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+186 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+187 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+188 info attempt registry request try #3 at 17:31:33
+189 http request GET https://registry.npmjs.org/browser-sync
+190 info attempt registry request try #3 at 17:31:33
+191 http request GET https://registry.npmjs.org/gulp
+192 info attempt registry request try #3 at 17:31:33
+193 http request GET https://registry.npmjs.org/font-awesome
+194 info attempt registry request try #3 at 17:31:33
+195 http request GET https://registry.npmjs.org/bootstrap
+196 info attempt registry request try #3 at 17:31:33
+197 http request GET https://registry.npmjs.org/gulp-less
+198 info attempt registry request try #3 at 17:31:33
+199 http request GET https://registry.npmjs.org/gulp-rename
+200 info attempt registry request try #3 at 17:31:33
+201 http request GET https://registry.npmjs.org/gulp-header
+202 info attempt registry request try #3 at 17:31:33
+203 http request GET https://registry.npmjs.org/gulp-clean-css
+204 info attempt registry request try #3 at 17:31:33
+205 http request GET https://registry.npmjs.org/gulp-uglify
+206 info attempt registry request try #3 at 17:31:33
+207 http request GET https://registry.npmjs.org/gulp-imagemin
+208 info attempt registry request try #3 at 17:31:33
+209 http request GET https://registry.npmjs.org/gulp-purifycss
+210 info attempt registry request try #3 at 17:31:33
+211 http request GET https://registry.npmjs.org/jquery
+212 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+212 silly fetchPackageMetaData
+212 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+212 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+212 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+212 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+212 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+212 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+212 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+212 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+212 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+212 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5)
+212 silly fetchPackageMetaData  error for browser-sync@^2.13.0 { Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+212 silly fetchPackageMetaData
+212 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+212 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+212 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+212 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+212 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+212 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+212 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+212 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+212 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+212 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5) code: 'ECONNRESET' }
+213 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+213 silly fetchPackageMetaData
+213 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+213 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+213 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+213 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+213 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+213 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+213 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+213 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+213 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+213 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5)
+213 silly fetchPackageMetaData  error for gulp@latest { Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+213 silly fetchPackageMetaData
+213 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+213 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+213 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+213 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+213 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+213 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+213 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+213 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+213 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+213 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5) code: 'ECONNRESET' }
+214 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+214 silly fetchPackageMetaData
+214 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+214 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+214 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+214 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+214 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+214 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+214 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+214 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+214 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+214 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5)
+214 silly fetchPackageMetaData  error for bootstrap@^4.0.0-alpha.6 { Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+214 silly fetchPackageMetaData
+214 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+214 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+214 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+214 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+214 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+214 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+214 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+214 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+214 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+214 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5) code: 'ECONNRESET' }
+215 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+215 silly fetchPackageMetaData
+215 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+215 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+215 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+215 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+215 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+215 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+215 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+215 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+215 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+215 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5)
+215 silly fetchPackageMetaData  error for gulp-less@^3.1.0 { Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+215 silly fetchPackageMetaData
+215 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+215 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+215 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+215 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+215 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+215 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+215 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+215 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+215 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+215 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5) code: 'ECONNRESET' }
+216 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+216 silly fetchPackageMetaData
+216 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+216 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+216 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+216 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+216 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+216 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+216 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+216 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+216 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+216 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5)
+216 silly fetchPackageMetaData  error for font-awesome@^4.6.3 { Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+216 silly fetchPackageMetaData
+216 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+216 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+216 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+216 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+216 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+216 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+216 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+216 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+216 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+216 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5) code: 'ECONNRESET' }
+217 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+217 silly fetchPackageMetaData
+217 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+217 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+217 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+217 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+217 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+217 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+217 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+217 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+217 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+217 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5)
+217 silly fetchPackageMetaData  error for gulp-rename@^1.2.2 { Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+217 silly fetchPackageMetaData
+217 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+217 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+217 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+217 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+217 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+217 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+217 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+217 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+217 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+217 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5) code: 'ECONNRESET' }
+218 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+218 silly fetchPackageMetaData
+218 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+218 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+218 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+218 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+218 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+218 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+218 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+218 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+218 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+218 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5)
+218 silly fetchPackageMetaData  error for gulp-header@^1.8.7 { Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+218 silly fetchPackageMetaData
+218 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+218 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+218 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+218 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+218 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+218 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+218 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+218 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+218 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+218 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5) code: 'ECONNRESET' }
+219 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+219 silly fetchPackageMetaData
+219 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+219 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+219 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+219 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+219 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+219 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+219 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+219 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+219 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+219 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5)
+219 silly fetchPackageMetaData  error for gulp-clean-css@latest { Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+219 silly fetchPackageMetaData
+219 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+219 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+219 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+219 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+219 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+219 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+219 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+219 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+219 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+219 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5) code: 'ECONNRESET' }
+220 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+220 silly fetchPackageMetaData
+220 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+220 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+220 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+220 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+220 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+220 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+220 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+220 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+220 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+220 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5)
+220 silly fetchPackageMetaData  error for jquery@^3.0.0 { Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+220 silly fetchPackageMetaData
+220 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+220 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+220 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+220 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+220 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+220 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+220 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+220 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+220 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+220 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5) code: 'ECONNRESET' }
+221 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+221 silly fetchPackageMetaData
+221 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+221 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+221 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+221 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+221 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+221 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+221 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+221 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+221 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+221 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5)
+221 silly fetchPackageMetaData  error for gulp-imagemin@latest { Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+221 silly fetchPackageMetaData
+221 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+221 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+221 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+221 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+221 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+221 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+221 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+221 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+221 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+221 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5) code: 'ECONNRESET' }
+222 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+222 silly fetchPackageMetaData
+222 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+222 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+222 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+222 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+222 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+222 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+222 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+222 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+222 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+222 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5)
+222 silly fetchPackageMetaData  error for gulp-purifycss@latest { Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+222 silly fetchPackageMetaData
+222 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+222 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+222 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+222 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+222 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+222 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+222 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+222 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+222 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+222 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5) code: 'ECONNRESET' }
+223 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+223 silly fetchPackageMetaData
+223 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+223 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+223 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+223 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+223 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+223 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+223 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+223 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+223 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+223 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5)
+223 silly fetchPackageMetaData  error for gulp-uglify@^1.5.4 { Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+223 silly fetchPackageMetaData
+223 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+223 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+223 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+223 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+223 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+223 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+223 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+223 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:346:10)
+223 silly fetchPackageMetaData     at onwrite (_stream_writable.js:364:5)
+223 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:90:5) code: 'ECONNRESET' }
+224 silly rollbackFailedOptional Starting
+225 silly rollbackFailedOptional Finishing
+226 silly runTopLevelLifecycles Finishing
+227 silly install printInstalled
+228 verbose stack Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+228 verbose stack
+228 verbose stack     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+228 verbose stack     at ClientRequest.g (events.js:291:16)
+228 verbose stack     at emitOne (events.js:96:13)
+228 verbose stack     at ClientRequest.emit (events.js:188:7)
+228 verbose stack     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+228 verbose stack     at emitOne (events.js:96:13)
+228 verbose stack     at TLSSocket.emit (events.js:188:7)
+228 verbose stack     at onwriteError (_stream_writable.js:346:10)
+228 verbose stack     at onwrite (_stream_writable.js:364:5)
+228 verbose stack     at WritableState.onwrite (_stream_writable.js:90:5)
+229 verbose cwd C:\Utilisateurs\a508889\Documents\Projets\Perso\maximerafaillac.github.io
+230 error Windows_NT 6.1.7601
+231 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+232 error node v6.10.1
+233 error npm  v3.10.10
+234 error code ECONNRESET
+235 error network tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+236 error network This is most likely not a problem with npm itself
+236 error network and is related to network connectivity.
+236 error network In most cases you are behind a proxy or have bad network settings.
+236 error network
+236 error network If you are behind a proxy, please make sure that the
+236 error network 'proxy' config is set properly.  See: 'npm help config'
+237 verbose exit [ 1, true ]

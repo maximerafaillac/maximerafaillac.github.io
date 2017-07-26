@@ -623,3 +623,65 @@ img::-moz-selection {
     padding: 10px 100px 20px 20px;
   }
 }
+
+
+/* CSS notes*/
+/* https://www.youtube.com/watch?v=yDD8MN8nDT4 */
+/*
+CSS Variables (custom properties):
+--property-name : value
+
+:root{
+  --color-pimary: #EEEEE
+  --color-secondary: #EEEEE
+  --gradient: var(--color-bg-light), var(color-bg);
+
+  --font-stack-primary: 'Raleway', sans serif;
+  --font-stack-secondary: 'Bree Serif', serif;
+
+  --max-width: 1000px;
+  -- gutter : 10px;
+
+}
+
+.headline{
+  color: var(--color-secondary);
+}
+
+.btn{
+  color: var(--color-primary);
+}
+
+header{
+  background-image: linear-gradient(var(--color-bg-light), var(color-bg)); Ou
+  background-image: linear-gradient(var(gradient));
+}
+
+[elementJS].style.setProperty('--pos-x', e.clientX); ...
+
+
+
+
+Compositing & blending
+mix-blend-mode
+backdrop-filter --> to blur the background image, behind a modal
+css shapes
+shape-outside --> https://youtu.be/yDD8MN8nDT4?t=16m8s top pour une profil pic
+si besoin de faire des polygons --> extension chrome: css shapes editor
+clip-path --> https://youtu.be/yDD8MN8nDT4?t=19m14s top poru écrire du texte et le fusionner dans une image
+color values: 8 digits hex notation
+RRGGBBAA --> AA represent le alpha FF --> opaque
+
+
+Selectors
+matches
+:valid, :invalid pour les emails par exemple --> https://youtu.be/yDD8MN8nDT4?t=27m2s fun
+--> css4-selectors.com pour vérifier
+
+
+feature queries
+
+@supports (type modernizr pour checker les features dispo sur le navigateur)
+
+
+*/
