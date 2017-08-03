@@ -5,7 +5,9 @@ body, html {
 
 .bg {
     /* The image used */
-    background-image: url("/assets/img/background_HD.jpeg");
+    /*background-image: url("/assets/img/background_HD2.jpeg");*/
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.5)),url(/assets/img/background_HD3.jpeg) no-repeat scroll center center;
+    
 
     /* Full height */
     height: 100%;
