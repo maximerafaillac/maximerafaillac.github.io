@@ -4,6 +4,10 @@
 <!--        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">-->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="bg">
@@ -37,34 +41,38 @@
 
       <!-- Modal content -->
       <div class="modal-content">
+<!--
         <div class="modal-header">
           <span class="close">&times;</span>
           <h2>Modal Header</h2>
         </div>
-        <div class="modal-body">
-          <form action="/action_page.php">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+-->
+        <div class="modal-body">            
+            <span class="close">&times;</span>
+            <form name="contact-form" id="contact-form" method="post" action="https://ks3354246.kimsufi.com:8443/mailapp/contact">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" class="form-control" id="name" required="">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" class="form-control" id="email" required="">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" class="form-control" id="message" rows="5" required=""></textarea>
+                </div>
 
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <input type="hidden" name="apikey" value="467b685d2572d6d134a2d95bbcf3f93376f1f68492df34e24462693f5fa2163b">
 
-            <label for="country">Country</label>
-            <select id="country" name="country">
-              <option value="australia">Australia</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
-            </select>
-
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-            <input type="submit" value="Submit">
-          </form>
+                <button type="submit" name="submit" class="btn btn-primary">Send Message</button>
+            </form>
         </div>
+<!--
         <div class="modal-footer">
           <h3>Modal Footer</h3>
         </div>
+-->
       </div>
     </div>
     
@@ -94,6 +102,19 @@
                 modal.style.display = "none";
             }
         }
+        
+        $('#contact-form').submit(function(e){
+           e.preventDefault();
+            $.ajax({
+                url:'https://ks3354246.kimsufi.com/mailapp/contact',
+                type:'post',
+                data:$('#contact-form').serialize(),
+                success:function(){
+                    $('#success').removeClass('hidden');
+                    $("#contact-form")[0].reset();
+                }
+            });
+        });
     </script>
 </body>
 </html>
