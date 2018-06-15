@@ -37,8 +37,7 @@
             <a href="http://fr.viadeo.com/fr/profile/maxime.rafaillac" target="_blank">
                 <i class="fa fa-viadeo" aria-hidden="true"></i>
             </a>
-            <p><button id="myBtn">Contact</button></p>  
-<!--              <div class='titanic titanic_chat'></div>-->
+            <p><button data-tooltip="Disabled for now..." id="myBtn" disabled>Contact</button></p>  
           </div>
         </div>
     </div>
@@ -127,26 +126,24 @@
         window.onload= function() {  
             Particles.init({
                 selector: '.background',
-                color: '#75A5B7',
-                maxParticles: 130,
+                color: '#009473',
+                maxParticles: 350,
                 connectParticles: true,
                 responsive: [
                 {
                   breakpoint: 768,
                   options: {
-                    maxParticles: 80
+                    maxParticles: 160
                   }
                 }, {
                   breakpoint: 375,
                   options: {
-                    maxParticles: 50
+                    maxParticles: 100
                   }
                 }
               ]
             });
         };
-//        var titanic = new Titanic();
-        
     </script>
      
     <canvas class="background"></canvas>
