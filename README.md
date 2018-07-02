@@ -12,3 +12,10 @@ gulp-concat : to concatenate Js files
 gulp-imagemin to minify images
 gulp-uncss to clean css
 gulp-header: to add header to files
+
+Don't forget to npm install -g gulp-cli before running any gulp task
+
+###TODO
+* update and clean gulp imports
+* remove useless tasks
+* optimize imports
