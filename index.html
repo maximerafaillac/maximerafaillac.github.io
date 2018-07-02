@@ -1,318 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="Maxime Rafaillac, Tours, 37, Indre et loire ,Lead Developer, Scrum Master, Java, Javascript, Docker, Agile, Team Leader" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Lead Developer / Scrum Master">
-    <meta name="author" content="Maxime RAFAILLAC">
+<!--        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">-->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+<!--        <script src="https://cdn.rawgit.com/icons8/titanic/master/dist/js/titanic.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.5.9/bodymovin.min.js"></script>
+    
+    <script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    
 
-    <title>Maxime Rafaillac - Lead Developer</title>
-
-    <!-- Bootstrap -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
-    <!-- Theme CSS -->
-    <link href="assets/css/style.min.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-
-    <!-- GA -->
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-30799752-1', 'auto');
-        ga('send', 'pageview');
-
-    </script>
+    
 </head>
-
-<body id="page-top">
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <p id="name">Maxime Rafaillac</p>
-                </a>
-            </div>
-
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a class="page-scroll" href="#about">About</a></li>
-                    <li><a class="page-scroll" href="#skills">Skills</a></li>
-                    <li><a class="page-scroll" href="#experience">Experience</a></li>
-                    <li><a class="page-scroll" href="#contact">Contact</a></li>
-                </ul>
-            </div>
+<body>
+    <div>
+    
+        <div class="card">
+          <img src="/assets/img/profil_web2.jpg" alt="Max" style="width:100%">
+          <div class="container">
+            <h1>Maxime Rafaillac</h1>
+            <p class="title">Lead Developer &amp; Scrum Master</p>
+            <p class="links">
+                <a href="http://www.norsys.fr/" target="_blank">@Norsys</a> | 
+                <a href="http://www.elkyn.co/" target="_blank">@Elkyn</a>
+            </p>
+            <a href="https://fr.linkedin.com/in/maximerafaillac" target="_blank">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/maximerafaillac" target="_blank">
+                <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="http://fr.viadeo.com/fr/profile/maxime.rafaillac" target="_blank">
+                <i class="fa fa-viadeo" aria-hidden="true"></i>
+            </a>
+            <p><button data-tooltip="Disabled for now..." id="myBtn" disabled>Contact</button></p>  
+          </div>
         </div>
-    </nav>
+    </div>
+    
+    
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
 
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1 id="homeHeading">Hi, I'm Maxime Rafaillac</h1>
-                <!--<hr>-->
-                <p> Lead Developer / Scrum Master </p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Learn More</a>
-            </div>
+      <!-- Modal content -->
+      <div class="modal-content">
+<!--
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Modal Header</h2>
         </div>
-    </header>
-
-    <!-- ABOUT -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">About Me</h2>
-                    <div class="col-md-12 text-center"><img src="assets/img/profil_web2.jpg" alt="Maxime Rafaillac - profil picture" class="img-responsive"></div>
-                    <p class="text-faded">I am a Technical Leader & Scrum Master in Worldine’s Digital Wallet Core Team, supervising a team of 5 developers. I'm also a member of the Worldine Experts Network. </p>
-                    <p class="text-faded">I am always looking for new challenges. That’s why, I also work as an Agile and Good Practice consultant in other teams, I’ve joined the Expert Network at Worldline. I’ve had my own company, and sometimes, I give talks at the University of Angers about Continuous Deployment.</p>
-                    <p class="text-faded">I really love teaching people, in a technical and human way, trying to make them confident and more skilled day after day.</p>
+-->
+        <div class="modal-body">            
+            <span class="close">&times;</span>
+            <form name="contact-form" id="contact-form" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" class="form-control" id="name" required/>
                 </div>
-            </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" class="form-control" id="email" required/>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" class="form-control" id="message" rows="5" required></textarea>
+                </div>
+
+                <input type="hidden" name="apikey" value="467b685d2572d6d134a2d95bbcf3f93376f1f68492df34e24462693f5fa2163b">
+
+                <button type="submit" name="submit" class="btn btn-primary">Send Message</button>
+            </form>
         </div>
-    </section>
-    
-    
-    
-    
-    <!-- SKILLS -->
-
-    <section class="bg-primary" id="skills">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Skills</h2>
-                    <hr class="primary">
-                </div>
-            </div>
+<!--
+        <div class="modal-footer">
+          <h3>Modal Footer</h3>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-code text-primary sr-icons"></i>
-                        <h3>Java</h3>
-                        <p class="text-muted">J2EE, Hibernate, Spring, Netflix OSS</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-rocket text-primary sr-icons"></i>
-                        <h3>Devops</h3>
-                        <p class="text-muted">Docker, Gitlab, Bash, Jenkins, Sonar</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-users text-primary sr-icons"></i>
-                        <h3>Agile</h3>
-                        <p class="text-muted">Certified Scrum Master, Jira, Software Craftmanship</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-flask text-primary sr-icons"></i>
-                        <h3>Javascript</h3>
-                        <p class="text-muted">NodeJs, Backbone, Angular 1, React (working on it)</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+-->
+      </div>
+    </div>
+    
+    <script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
 
-    
-    
-    <!-- EXPERIENCE -->
-    
-    <section id="experience" class="text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Experience</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                      <li>
-                        <div class="timeline-image">
-                          <h4>May 2014 <br>
-                            - <br>
-                            Present </h4>
-                        </div>
-                        <div class="timeline-panel">
-                          <div class="timeline-heading">
-                            <h4>Lead Developer &amp; Scrum Master</h4>
-                            <h4 class="subheading">Equens Worldline</h4>
-                          </div>
-                          <div class="timeline-body">
-                            <p>I am a technical leader in a team of 5 developers. We work on critical banking projects and custom BI solutions.</p>
-                            <p>I'm also a member of the Experts Network, working on Docker and MongoDB.</p>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="timeline-inverted">
-                        <div class="timeline-image">
-                          <h4>Nov 2014 <br>
-                            - <br>
-                            Nov 2016 </h4>
-                        </div>
-                        <div class="timeline-panel">
-                          <div class="timeline-heading">
-                            <h4>Full Stack Developer</h4>
-                            <h4 class="subheading">Entrepreneur</h4>
-                          </div>
-                          <div class="timeline-body">
-                            <p>I built, with an other entrepreneur, a custom e-commerce system for a Start Up.</p>
-                            <p>Everything was based on Spring 4, Hazelcast, PostgresSQL, Docker, Jtwig, simplecartJs and linked to Paybox. </p>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="timeline-image">
-                          <h4>Sep 2012 <br>
-                            - <br>
-                            May 2014 </h4>
-                        </div>
-                        <div class="timeline-panel">
-                          <div class="timeline-heading">
-                            <h4>Full stack Developer</h4>
-                            <h4 class="subheading">Atos</h4>
-                          </div>
-                          <div class="timeline-body">
-                            <p>During two years, I've worked both in Java and Web front development and in hosting platforms.</p>
-                            <p>I've also been working on the Worldline’s Innovation Lab initiative to build a mutualized ELK platform. I also gave a talk about it at an internal convention.</p>
-                          </div>
-                        </div>
-                      </li>
-                        <li  class="timeline-inverted">
-                        <div class="timeline-image">
-                          <h4>Mar 2012 <br>
-                            - <br>
-                            Sep 2012 </h4>
-                        </div>
-                        <div class="timeline-panel">
-                          <div class="timeline-heading">
-                            <h4>Java &amp; Android Developer</h4>
-                            <h4 class="subheading">Atos</h4>
-                          </div>
-                          <div class="timeline-body">
-                            <p>I worked as an Android and Java developer to build a Bike Rental application.</p>
-                            <p>I've also made an Arduino system to lock and release bikes with Xbee and NFC.</p>
-                          </div>
-                        </div>
-                      </li>
-                        <li>
-                        <div class="timeline-image">
-                          <h4>Apr 2011 <br>
-                            - <br>
-                            Aug 2011 </h4>
-                        </div>
-                        <div class="timeline-panel">
-                          <div class="timeline-heading">
-                            <h4>Java &amp; Javascript Developer</h4>
-                            <h4 class="subheading">Atos</h4>
-                          </div>
-                          <div class="timeline-body">
-                            <p>My first experience in the Atos group was about an internal platform to help development team.</p>
-                            <p>It was an early gitlab-like platform, including repositories management, continuous integration, quality check, etc. </p>
-                          </div>
-                        </div>
-                      </li>
-                        <li  class="timeline-inverted">
-                        <div class="timeline-image">
-                          <h4>Apr 2010 <br>
-                            - <br>
-                            Aug 2010 </h4>
-                        </div>
-                        <div class="timeline-panel">
-                          <div class="timeline-heading">
-                            <h4>Network Engineer</h4>
-                            <h4 class="subheading">Xplor - Mexico</h4>
-                          </div>
-                          <div class="timeline-body">
-                            <p>I worked in the jungle to make tons of routers and RFID reader working together.</p>
-                              <p>I’ve worked in unlikely but thrilling conditions (jungle, diving, climbing, …) to automate picture capturing.</p>
-                          </div>
-                        </div>
-                      </li>
-                        <li>
-                        <div class="timeline-image">
-                          <h4>Apr 2009 <br>
-                            - <br>
-                            Aug 2009 </h4>
-                        </div>
-                        <div class="timeline-panel">
-                          <div class="timeline-heading">
-                            <h4>C Developer</h4>
-                            <h4 class="subheading">Glyndwr University - Wales</h4>
-                          </div>
-                          <div class="timeline-body">
-                            <p>I worked as an OpenGL Developer in an international team to build a mindmap application on the Sony Playstation 3.</p>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
 
-    
-    <!-- CONTACT -->
-    <section id="contact" class="bg-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">You can contact me here</h2>
-                    <hr class="primary">
-                    <h2>
-                        <a href="https://fr.linkedin.com/in/maximerafaillac" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        <a href="https://github.com/maximerafaillac" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        <a href="http://fr.viadeo.com/fr/profile/maxime.rafaillac" target="_blank"><i class="fa fa-viadeo" aria-hidden="true"></i></a>
-                    </h2>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    
-    <!-- Script -->
-    <script src="assets/js/script.min.js"></script>
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
 
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        
+        $('#contact-form').submit(function(e){
+           e.preventDefault();
+            $.ajax({
+                url:'https://ks3354246.kimsufi.com:8443/mailapp/contact',
+                type:'post',
+                data:$('#contact-form').serialize(),
+                success:function(){
+//                    $('#success').removeClass('hidden');
+                    modal.style.display = "none";
+                    $("#contact-form")[0].reset();
+                }
+            });
+        });
+        window.onload= function() {  
+            Particles.init({
+                selector: '.background',
+                color: '#009473',
+                maxParticles: 350,
+                connectParticles: true,
+                responsive: [
+                {
+                  breakpoint: 768,
+                  options: {
+                    maxParticles: 160
+                  }
+                }, {
+                  breakpoint: 375,
+                  options: {
+                    maxParticles: 100
+                  }
+                }
+              ]
+            });
+        };
+    </script>
+     
+    <canvas class="background"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
 </body>
-
 </html>
