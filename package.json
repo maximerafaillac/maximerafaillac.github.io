@@ -1,5 +1,5 @@
 {
-  "name": "MaximeRafaillac",
+  "name": "Maxime Rafaillac",
   "title": "Maxime Rafaillac",
   "version": "1.1.0",
   "homepage": "maximerafaillac.github.io",
@@ -7,7 +7,7 @@
   "devDependencies": {
     "bootstrap": "^4.0.0-alpha.6",
     "browser-sync": "^2.13.0",
-    "font-awesome": "^4.6.3",
+    "font-awesome": "^4.7.0",
     "gulp": "latest",
     "gulp-clean-css": "latest",
     "gulp-header": "^1.8.7",
@@ -16,7 +16,7 @@
     "gulp-uglify": "^1.5.4",
     "gulp-imagemin": "latest",
     "gulp-purifycss": "latest",
-    "jquery": "^3.0.0"
+    "jquery": "^3.3.1"
   },
   "repository": {
     "type": "git",
